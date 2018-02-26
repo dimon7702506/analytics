@@ -13,7 +13,7 @@
         <!-- Le styles -->
         <?= $this->headLink(['rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/passat_ic.png'])
                         ->prependStylesheet($this->basePath('css/style.css'))
-                        ->prependStylesheet($this->basePath('css/bootstrap-theme.min.css'))
+                        //->prependStylesheet($this->basePath('css/bootstrap-theme.min.css'))
                         ->prependStylesheet($this->basePath('css/bootstrap.min.css'))
         ?>
 
@@ -40,12 +40,7 @@
                     ?>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Breadcrumbs -->
-                    <?= $this->pageBreadcrumbs()->render(); ?>
-                </div>
-            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <!-- Page content placeholder -->
@@ -54,7 +49,7 @@
             </div>
             <hr>
             <footer>
-                <p>&copy; 2005 - <?= date('Y') ?> by Your Company. All rights reserved.</p>
+                <p>&copy; 2017 - <?= date('Y') ?> by Shchetinin Dmitriy. All rights reserved.</p>
             </footer>
         </div>
         <?= $this->inlineScript() ?>

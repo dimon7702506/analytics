@@ -1,5 +1,10 @@
 body {
     padding-bottom: 40px;
+    background-color: #eee
+}
+
+.my-navbar {
+    background-color: #3d713d;
 }
 
 .zf-green {
