@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/module/Application/test" isTestSource="true" packagePrefix="ApplicationTest\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/Application/src" isTestSource="false" packagePrefix="Application\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/User/src" isTestSource="false" packagePrefix="User\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/User/test" isTestSource="true" packagePrefix="UserTest\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/package-versions" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/proxy-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-barcode" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-captcha" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-crypt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-form" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-math" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-session" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/migrations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/orm" />
+          <root url="file://$MODULE_DIR$/vendor/ocramius/package-versions" />
+          <root url="file://$MODULE_DIR$/vendor/ocramius/proxy-manager" />
+          <root url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-barcode" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-captcha" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-crypt" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-form" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-math" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-session" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/migrations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/orm" />
+          <root url="file://$MODULE_DIR$/vendor/ocramius/package-versions" />
+          <root url="file://$MODULE_DIR$/vendor/ocramius/proxy-manager" />
+          <root url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-barcode" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-captcha" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-crypt" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-form" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-math" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-session" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
