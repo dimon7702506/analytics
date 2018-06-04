@@ -3,8 +3,19 @@ body {
     background-color: #eee
 }
 
-.my-navbar {
+.navbar-default {
     background-color: #3d713d;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #3c763d;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
 }
 
 .zf-green {
@@ -34,6 +45,18 @@ body {
   background-color: #57a900;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #3d713d;
+    border-color: #3d713d;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2b542c;
+    border-color: #2b542c;
+}
+
 div.container a.navbar-brand > img {
     display: inline;
     margin-right: 4px;
@@ -50,6 +73,7 @@ form ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px 5px;
+
 }
 
 form ul li {    
@@ -60,4 +84,16 @@ form ul li {
   list-style-type: none;
   padding: 0px;
   margin: 0px 5px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.form-control:hover {
+    border-color: #2b542c;
+}
+
+.form-control:focus {
+    border-color: #2b542c;
 }

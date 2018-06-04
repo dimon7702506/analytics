@@ -39,7 +39,7 @@ class IndexController extends AbstractActionController
      */
     public function aboutAction() 
     {              
-        $appName = 'User Demo';
+        $appName = 'Analytics';
         $appDescription = 'This demo shows how to implement user management with Zend Framework 3';
         
         // Return variables to view script with the help of

@@ -41,13 +41,7 @@ class NavManager
             'label' => 'Home',
             'link'  => $url('home')
         ];
-        
-        $items[] = [
-            'id' => 'about',
-            'label' => 'About',
-            'link'  => $url('about')
-        ];
-        
+
         // Display "Login" menu item for not authorized user only. On the other hand,
         // display "Admin" and "Logout" menu items only for authorized users.
         if (!$this->authService->hasIdentity()) {
@@ -58,7 +52,19 @@ class NavManager
                 'float' => 'right'
             ];
         } else {
-            
+
+            $items[] = [
+                'id' => 'tables',
+                'label' => 'Действия',
+                'dropdown' => [
+                    [
+                        'id' => 'users',
+                        'label' => 'Articuls table',
+                        'link' => $url('users')
+                    ]
+                ]
+            ];
+
             $items[] = [
                 'id' => 'admin',
                 'label' => 'Admin',
@@ -87,6 +93,12 @@ class NavManager
                         'link' => $url('logout')
                     ],
                 ]
+            ];
+
+            $items[] = [
+                'id' => 'about',
+                'label' => 'About',
+                'link'  => $url('about')
             ];
         }
         

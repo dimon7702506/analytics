@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <?= $this->headTitle('Analitika')->setSeparator(' - ')->setAutoEscape(false) ?>
+        <?= $this->headTitle('Analytics')->setSeparator(' - ')->setAutoEscape(false) ?>
 
         <?= $this->headMeta()
             ->appendName('viewporUsert', 'width=device-width, initial-scale=1.0')
@@ -24,23 +24,20 @@
         ?>
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Navigation bar -->
-                    <?php
-                    // Check if the activeMenuItemId passed to layout view model
-                    // and if so, use it for setting active navbar item.
-                    if (isset($activeMenuItemId)) {
-                        $this->mainMenu()->setActiveItemId($activeMenuItemId);
-                    }
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Navigation bar -->
+                <?php
+                if (isset($activeMenuItemId)) {
+                    $this->mainMenu()->setActiveItemId($activeMenuItemId);
+                }
 
-                    // Render the navbar
-                    echo $this->mainMenu()->render();
-                    ?>
-                </div>
+                // Render the navbar
+                echo $this->mainMenu()->render();
+                ?>
             </div>
-
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <!-- Page content placeholder -->
