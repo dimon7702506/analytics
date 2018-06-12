@@ -105,5 +105,3 @@ class NavManager
         return $items;
     }
 }
-
-

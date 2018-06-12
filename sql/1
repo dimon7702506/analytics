@@ -1,0 +1,3 @@
+DROP TABLE user;
+UPDATE `users` SET `password_hash` = '$2y$10$G31DoIA82QF7zr/DYRFyYu5O8SYP3WVP.7AqJFk4Kue7pyUgQXgka' WHERE `users`.`id` = 1;
+UPDATE `users` SET `password_hash` = '$2y$10$G31DoIA82QF7zr/DYRFyYu5O8SYP3WVP.7AqJFk4Kue7pyUgQXgka' WHERE `users`.`id` = 2;

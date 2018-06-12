@@ -46,6 +46,9 @@ return [
                     'user'     => 'username',
                     'password' => 'password',
                     'dbname'   => 'database',
+                    'charset'  => 'utf8',
+                    'driverOptions' => array(
+                        1002 => 'SET NAMES utf8'),
                 ],
             ],
         ],

@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * This class represents a registered user.
  * @ORM\Entity()
- * @ORM\Table(name="user")
+ * @ORM\Table(name="users")
  */
 class User 
 {
@@ -32,7 +32,7 @@ class User
     protected $fullName;
 
     /** 
-     * @ORM\Column(name="password")  
+     * @ORM\Column(name="password_hash")
      */
     protected $password;
 
